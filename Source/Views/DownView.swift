@@ -28,6 +28,10 @@ public class DownView: WKWebView {
         if openLinksInBrowser { navigationDelegate = self }
         try loadHTMLView(markdownString)
     }
+    
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     // MARK: - Private Properties
 
@@ -69,7 +73,13 @@ extension DownView: WKNavigationDelegate {
         switch navigationAction.navigationType {
         case .LinkActivated:
             decisionHandler(.Cancel)
-            UIApplication.sharedApplication().openURL(url)
+
+            #if os(iOS)
+                UIApplication.sharedApplication().openURL(url)
+            #elseif os(OSX)
+                NSWorkspace.sharedWorkspace().openURL(url)
+            #endif
+            
         default:
             decisionHandler(.Allow)
         }

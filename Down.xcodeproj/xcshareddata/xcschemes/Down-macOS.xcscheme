@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D4201E7F1CFA5151008EEC6E"
-               BuildableName = "Down.framework"
-               BlueprintName = "Down"
+               BlueprintIdentifier = "F964014B20F5E38100AA31DA"
+               BuildableName = "Down-macOS.framework"
+               BlueprintName = "Down-macOS"
                ReferencedContainer = "container:Down.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D4201E891CFA5151008EEC6E"
-               BuildableName = "DownTests.xctest"
-               BlueprintName = "DownTests"
+               BlueprintIdentifier = "F964015320F5E38100AA31DA"
+               BuildableName = "Down-macOSTests.xctest"
+               BlueprintName = "Down-macOSTests"
                ReferencedContainer = "container:Down.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4201E7F1CFA5151008EEC6E"
-            BuildableName = "Down.framework"
-            BlueprintName = "Down"
+            BlueprintIdentifier = "F964014B20F5E38100AA31DA"
+            BuildableName = "Down-macOS.framework"
+            BlueprintName = "Down-macOS"
             ReferencedContainer = "container:Down.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4201E7F1CFA5151008EEC6E"
-            BuildableName = "Down.framework"
-            BlueprintName = "Down"
+            BlueprintIdentifier = "F964014B20F5E38100AA31DA"
+            BuildableName = "Down-macOS.framework"
+            BlueprintName = "Down-macOS"
             ReferencedContainer = "container:Down.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4201E7F1CFA5151008EEC6E"
-            BuildableName = "Down.framework"
-            BlueprintName = "Down"
+            BlueprintIdentifier = "F964014B20F5E38100AA31DA"
+            BuildableName = "Down-macOS.framework"
+            BlueprintName = "Down-macOS"
             ReferencedContainer = "container:Down.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

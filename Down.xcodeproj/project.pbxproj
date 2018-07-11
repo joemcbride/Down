@@ -64,6 +64,61 @@
 		D4CF88981CFFAC2C00F07FD1 /* DownAttributedStringRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF88971CFFAC2C00F07FD1 /* DownAttributedStringRenderable.swift */; };
 		D4DC91141CFDED4B0091CE09 /* DownCommonMarkRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DC91131CFDED4B0091CE09 /* DownCommonMarkRenderable.swift */; };
 		D4F948DC1D00A4A800C9C0F6 /* NSAttributedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F948DB1D00A4A800C9C0F6 /* NSAttributedStringTests.swift */; };
+		F964015520F5E38100AA31DA /* Down.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F964014C20F5E38100AA31DA /* Down.framework */; };
+		F964015A20F5E38100AA31DA /* Down_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F964015920F5E38100AA31DA /* Down_macOSTests.swift */; };
+		F964016320F5E61500AA31DA /* DownView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D41689B51CFFE6BB00E5802B /* DownView.bundle */; };
+		F964016420F5E65600AA31DA /* Down.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4201EF01CFA59F2008EEC6E /* Down.swift */; };
+		F964016520F5E65600AA31DA /* DownErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44875E81CFA6CF30037A624 /* DownErrors.swift */; };
+		F964016620F5E65600AA31DA /* DownOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44875E91CFA6CF30037A624 /* DownOptions.swift */; };
+		F964016720F5E65600AA31DA /* NSAttributedString+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AE5C91CFFAE4D006E1522 /* NSAttributedString+HTML.swift */; };
+		F964016820F5E65600AA31DA /* String+ToHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AE5DB1CFFD473006E1522 /* String+ToHTML.swift */; };
+		F964016920F5E65600AA31DA /* DownASTRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D486E9951CFDD4860059FD7C /* DownASTRenderable.swift */; };
+		F964016A20F5E65600AA31DA /* DownAttributedStringRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF88971CFFAC2C00F07FD1 /* DownAttributedStringRenderable.swift */; };
+		F964016B20F5E65600AA31DA /* DownCommonMarkRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DC91131CFDED4B0091CE09 /* DownCommonMarkRenderable.swift */; };
+		F964016C20F5E65600AA31DA /* DownGroffRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D486E9991CFDE28B0059FD7C /* DownGroffRenderable.swift */; };
+		F964016D20F5E65600AA31DA /* DownHTMLRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44875E51CFA6B660037A624 /* DownHTMLRenderable.swift */; };
+		F964016E20F5E65600AA31DA /* DownLaTeXRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D486E9971CFDE2730059FD7C /* DownLaTeXRenderable.swift */; };
+		F964016F20F5E65600AA31DA /* DownXMLRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D486E9931CFDD33C0059FD7C /* DownXMLRenderable.swift */; };
+		F964017020F5E65600AA31DA /* DownRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44875E31CFA6B200037A624 /* DownRenderable.swift */; };
+		F964017120F5E65600AA31DA /* DownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AE5D91CFFD0D0006E1522 /* DownView.swift */; };
+		F964017220F5E67400AA31DA /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201EF71CFA5D63008EEC6E /* blocks.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017320F5E67400AA31DA /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201EF81CFA5D63008EEC6E /* buffer.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017420F5E67400AA31DA /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201EFC1CFA5D63008EEC6E /* cmark.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017520F5E67400AA31DA /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201EFE1CFA5D63008EEC6E /* cmark_ctype.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017620F5E67400AA31DA /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F021CFA5D63008EEC6E /* commonmark.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017720F5E67400AA31DA /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F071CFA5D63008EEC6E /* houdini_href_e.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017820F5E67400AA31DA /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F081CFA5D63008EEC6E /* houdini_html_e.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017920F5E67400AA31DA /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F091CFA5D63008EEC6E /* houdini_html_u.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017A20F5E67400AA31DA /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F0A1CFA5D63008EEC6E /* html.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017B20F5E67400AA31DA /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F0C1CFA5D63008EEC6E /* inlines.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017C20F5E67400AA31DA /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F0E1CFA5D63008EEC6E /* iterator.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017D20F5E67400AA31DA /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F101CFA5D63008EEC6E /* latex.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017E20F5E67400AA31DA /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F111CFA5D63008EEC6E /* man.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964017F20F5E67400AA31DA /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F131CFA5D63008EEC6E /* node.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964018020F5E67400AA31DA /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F161CFA5D63008EEC6E /* references.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964018120F5E67400AA31DA /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F181CFA5D63008EEC6E /* render.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964018220F5E67400AA31DA /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F1A1CFA5D63008EEC6E /* scanners.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964018320F5E67400AA31DA /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F1C1CFA5D63008EEC6E /* utf8.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964018420F5E67400AA31DA /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = D4201F1E1CFA5D63008EEC6E /* xml.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F964018520F5EDF700AA31DA /* Down.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CF88961CFF94B300F07FD1 /* Down.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F964018620F5EE4500AA31DA /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201EF91CFA5D63008EEC6E /* buffer.h */; };
+		F964018720F5EE4500AA31DA /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201EFB1CFA5D63008EEC6E /* chunk.h */; };
+		F964018820F5EE4500AA31DA /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201EFD1CFA5D63008EEC6E /* cmark.h */; };
+		F964018920F5EE4500AA31DA /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201EFF1CFA5D63008EEC6E /* cmark_ctype.h */; };
+		F964018A20F5EE4500AA31DA /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F001CFA5D63008EEC6E /* cmark_export.h */; };
+		F964018B20F5EE4500AA31DA /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F011CFA5D63008EEC6E /* cmark_version.h */; };
+		F964018C20F5EE4500AA31DA /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F031CFA5D63008EEC6E /* config.h */; };
+		F964018D20F5EE4500AA31DA /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F041CFA5D63008EEC6E /* debug.h */; };
+		F964018E20F5EE4500AA31DA /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F061CFA5D63008EEC6E /* houdini.h */; };
+		F964018F20F5EE4500AA31DA /* html_unescape.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F0B1CFA5D63008EEC6E /* html_unescape.h */; };
+		F964019020F5EE4500AA31DA /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F0D1CFA5D63008EEC6E /* inlines.h */; };
+		F964019120F5EE4500AA31DA /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F0F1CFA5D63008EEC6E /* iterator.h */; };
+		F964019220F5EE4500AA31DA /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F141CFA5D63008EEC6E /* node.h */; };
+		F964019320F5EE4500AA31DA /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F151CFA5D63008EEC6E /* parser.h */; };
+		F964019420F5EE4500AA31DA /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F191CFA5D63008EEC6E /* render.h */; };
+		F964019520F5EE4500AA31DA /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F1B1CFA5D63008EEC6E /* scanners.h */; };
+		F964019620F5EE4500AA31DA /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F1D1CFA5D63008EEC6E /* utf8.h */; };
+		F964019720F5EE4F00AA31DA /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = D4201F171CFA5D63008EEC6E /* references.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +128,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D4201E7F1CFA5151008EEC6E;
 			remoteInfo = Down;
+		};
+		F964015620F5E38100AA31DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4201E771CFA5151008EEC6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F964014B20F5E38100AA31DA;
+			remoteInfo = "Down-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -138,6 +200,12 @@
 		D4CF88971CFFAC2C00F07FD1 /* DownAttributedStringRenderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownAttributedStringRenderable.swift; sourceTree = "<group>"; };
 		D4DC91131CFDED4B0091CE09 /* DownCommonMarkRenderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownCommonMarkRenderable.swift; sourceTree = "<group>"; };
 		D4F948DB1D00A4A800C9C0F6 /* NSAttributedStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringTests.swift; sourceTree = "<group>"; };
+		F964014C20F5E38100AA31DA /* Down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F964014E20F5E38100AA31DA /* Down-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Down-macOS.h"; sourceTree = "<group>"; };
+		F964014F20F5E38100AA31DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F964015420F5E38100AA31DA /* Down-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Down-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F964015920F5E38100AA31DA /* Down_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Down_macOSTests.swift; sourceTree = "<group>"; };
+		F964015B20F5E38100AA31DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +221,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4201E8B1CFA5151008EEC6E /* Down.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F964014820F5E38100AA31DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F964015120F5E38100AA31DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F964015520F5E38100AA31DA /* Down.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +257,8 @@
 				D4201E9B1CFA59A5008EEC6E /* Source */,
 				D41689B41CFFE6BB00E5802B /* Resources */,
 				D4201EC41CFA59A5008EEC6E /* Tests */,
+				F964014D20F5E38100AA31DA /* Down-macOS */,
+				F964015820F5E38100AA31DA /* Down-macOSTests */,
 				D4201E811CFA5151008EEC6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -183,6 +268,8 @@
 			children = (
 				D4201E801CFA5151008EEC6E /* Down.framework */,
 				D4201E8A1CFA5151008EEC6E /* DownTests.xctest */,
+				F964014C20F5E38100AA31DA /* Down.framework */,
+				F964015420F5E38100AA31DA /* Down-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,6 +385,24 @@
 			path = "Enums & Options";
 			sourceTree = "<group>";
 		};
+		F964014D20F5E38100AA31DA /* Down-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F964014E20F5E38100AA31DA /* Down-macOS.h */,
+				F964014F20F5E38100AA31DA /* Info.plist */,
+			);
+			path = "Down-macOS";
+			sourceTree = "<group>";
+		};
+		F964015820F5E38100AA31DA /* Down-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F964015920F5E38100AA31DA /* Down_macOSTests.swift */,
+				F964015B20F5E38100AA31DA /* Info.plist */,
+			);
+			path = "Down-macOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -323,6 +428,32 @@
 				D4201F401CFA5D63008EEC6E /* render.h in Headers */,
 				D4201F421CFA5D63008EEC6E /* scanners.h in Headers */,
 				D4201F2B1CFA5D63008EEC6E /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F964014920F5E38100AA31DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F964018520F5EDF700AA31DA /* Down.h in Headers */,
+				F964019720F5EE4F00AA31DA /* references.h in Headers */,
+				F964018620F5EE4500AA31DA /* buffer.h in Headers */,
+				F964018720F5EE4500AA31DA /* chunk.h in Headers */,
+				F964018820F5EE4500AA31DA /* cmark.h in Headers */,
+				F964018920F5EE4500AA31DA /* cmark_ctype.h in Headers */,
+				F964018A20F5EE4500AA31DA /* cmark_export.h in Headers */,
+				F964018B20F5EE4500AA31DA /* cmark_version.h in Headers */,
+				F964018C20F5EE4500AA31DA /* config.h in Headers */,
+				F964018D20F5EE4500AA31DA /* debug.h in Headers */,
+				F964018E20F5EE4500AA31DA /* houdini.h in Headers */,
+				F964018F20F5EE4500AA31DA /* html_unescape.h in Headers */,
+				F964019020F5EE4500AA31DA /* inlines.h in Headers */,
+				F964019120F5EE4500AA31DA /* iterator.h in Headers */,
+				F964019220F5EE4500AA31DA /* node.h in Headers */,
+				F964019320F5EE4500AA31DA /* parser.h in Headers */,
+				F964019420F5EE4500AA31DA /* render.h in Headers */,
+				F964019520F5EE4500AA31DA /* scanners.h in Headers */,
+				F964019620F5EE4500AA31DA /* utf8.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +496,50 @@
 			productReference = D4201E8A1CFA5151008EEC6E /* DownTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F964014B20F5E38100AA31DA /* Down-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F964015D20F5E38100AA31DA /* Build configuration list for PBXNativeTarget "Down-macOS" */;
+			buildPhases = (
+				F964014720F5E38100AA31DA /* Sources */,
+				F964014820F5E38100AA31DA /* Frameworks */,
+				F964014920F5E38100AA31DA /* Headers */,
+				F964014A20F5E38100AA31DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Down-macOS";
+			productName = "Down-macOS";
+			productReference = F964014C20F5E38100AA31DA /* Down.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F964015320F5E38100AA31DA /* Down-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F964016020F5E38100AA31DA /* Build configuration list for PBXNativeTarget "Down-macOSTests" */;
+			buildPhases = (
+				F964015020F5E38100AA31DA /* Sources */,
+				F964015120F5E38100AA31DA /* Frameworks */,
+				F964015220F5E38100AA31DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F964015720F5E38100AA31DA /* PBXTargetDependency */,
+			);
+			name = "Down-macOSTests";
+			productName = "Down-macOSTests";
+			productReference = F964015420F5E38100AA31DA /* Down-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D4201E771CFA5151008EEC6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Glazed Donut, LLC.";
 				TargetAttributes = {
 					D4201E7F1CFA5151008EEC6E = {
@@ -380,6 +547,14 @@
 					};
 					D4201E891CFA5151008EEC6E = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					F964014B20F5E38100AA31DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F964015320F5E38100AA31DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -397,6 +572,8 @@
 			targets = (
 				D4201E7F1CFA5151008EEC6E /* Down */,
 				D4201E891CFA5151008EEC6E /* DownTests */,
+				F964014B20F5E38100AA31DA /* Down-macOS */,
+				F964015320F5E38100AA31DA /* Down-macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -411,6 +588,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D4201E881CFA5151008EEC6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F964014A20F5E38100AA31DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F964016320F5E61500AA31DA /* DownView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F964015220F5E38100AA31DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,6 +663,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F964014720F5E38100AA31DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F964017220F5E67400AA31DA /* blocks.c in Sources */,
+				F964017320F5E67400AA31DA /* buffer.c in Sources */,
+				F964017420F5E67400AA31DA /* cmark.c in Sources */,
+				F964017520F5E67400AA31DA /* cmark_ctype.c in Sources */,
+				F964017620F5E67400AA31DA /* commonmark.c in Sources */,
+				F964017720F5E67400AA31DA /* houdini_href_e.c in Sources */,
+				F964017820F5E67400AA31DA /* houdini_html_e.c in Sources */,
+				F964017920F5E67400AA31DA /* houdini_html_u.c in Sources */,
+				F964017A20F5E67400AA31DA /* html.c in Sources */,
+				F964017B20F5E67400AA31DA /* inlines.c in Sources */,
+				F964017C20F5E67400AA31DA /* iterator.c in Sources */,
+				F964017D20F5E67400AA31DA /* latex.c in Sources */,
+				F964017E20F5E67400AA31DA /* man.c in Sources */,
+				F964017F20F5E67400AA31DA /* node.c in Sources */,
+				F964018020F5E67400AA31DA /* references.c in Sources */,
+				F964018120F5E67400AA31DA /* render.c in Sources */,
+				F964018220F5E67400AA31DA /* scanners.c in Sources */,
+				F964018320F5E67400AA31DA /* utf8.c in Sources */,
+				F964018420F5E67400AA31DA /* xml.c in Sources */,
+				F964016420F5E65600AA31DA /* Down.swift in Sources */,
+				F964016520F5E65600AA31DA /* DownErrors.swift in Sources */,
+				F964016620F5E65600AA31DA /* DownOptions.swift in Sources */,
+				F964016720F5E65600AA31DA /* NSAttributedString+HTML.swift in Sources */,
+				F964016820F5E65600AA31DA /* String+ToHTML.swift in Sources */,
+				F964016920F5E65600AA31DA /* DownASTRenderable.swift in Sources */,
+				F964016A20F5E65600AA31DA /* DownAttributedStringRenderable.swift in Sources */,
+				F964016B20F5E65600AA31DA /* DownCommonMarkRenderable.swift in Sources */,
+				F964016C20F5E65600AA31DA /* DownGroffRenderable.swift in Sources */,
+				F964016D20F5E65600AA31DA /* DownHTMLRenderable.swift in Sources */,
+				F964016E20F5E65600AA31DA /* DownLaTeXRenderable.swift in Sources */,
+				F964016F20F5E65600AA31DA /* DownXMLRenderable.swift in Sources */,
+				F964017020F5E65600AA31DA /* DownRenderable.swift in Sources */,
+				F964017120F5E65600AA31DA /* DownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F964015020F5E38100AA31DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F964015A20F5E38100AA31DA /* Down_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -478,6 +718,11 @@
 			isa = PBXTargetDependency;
 			target = D4201E7F1CFA5151008EEC6E /* Down */;
 			targetProxy = D4201E8C1CFA5151008EEC6E /* PBXContainerItemProxy */;
+		};
+		F964015720F5E38100AA31DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F964014B20F5E38100AA31DA /* Down-macOS */;
+			targetProxy = F964015620F5E38100AA31DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -497,8 +742,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -547,8 +794,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -568,6 +817,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -580,6 +830,7 @@
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -593,6 +844,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -601,6 +853,7 @@
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -613,6 +866,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark/**";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -633,6 +887,100 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.glazeddonut.DownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F964015E20F5E38100AA31DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Source/cmark";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.Down-macOS";
+				PRODUCT_NAME = Down;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		F964015F20F5E38100AA31DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Source/cmark";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.Down-macOS";
+				PRODUCT_NAME = Down;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Source/cmark";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		F964016120F5E38100AA31DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Down-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.Down-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F964016220F5E38100AA31DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Down-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glazeddonut.Down-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -665,6 +1013,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F964015D20F5E38100AA31DA /* Build configuration list for PBXNativeTarget "Down-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F964015E20F5E38100AA31DA /* Debug */,
+				F964015F20F5E38100AA31DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F964016020F5E38100AA31DA /* Build configuration list for PBXNativeTarget "Down-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F964016120F5E38100AA31DA /* Debug */,
+				F964016220F5E38100AA31DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
